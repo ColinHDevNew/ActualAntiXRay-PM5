@@ -4,3 +4,19 @@
 mode: "blacklist"
 # List names of worlds here.
 worlds: []
+
+# The plugin looks at the GitHub releases of its repository on every startup.
+auto-update:
+  # Whether to check for a newer release at all.
+  enabled: true
+  # Download the .phar of the newest release and install it when the server stops: the new file takes the place of the
+  # running one, which deletes itself. If the plugin runs from a source folder (DevTools), that folder is DELETED and
+  # replaced by the downloaded .phar. Set this to false to only be told that an update exists.
+  download: true
+  # Repository the releases are taken from, as "owner/repository".
+  repository: "ColinHDevNew/ActualAntiXRay-PM5"
+  # Whether pre-releases count as updates too.
+  pre-releases: false
+  # GitHub API token. Only needed if the 60 requests per hour that GitHub allows per IP are not enough, e.g. when many
+  # servers share one address. A token without any scope is sufficient.
+  token: ""
