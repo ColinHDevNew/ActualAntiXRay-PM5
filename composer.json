@@ -1,0 +1,13 @@
+{
+	"name": "colinhdev/actualantixray",
+	"require": {
+		"pocketmine/pocketmine-mp": "^5.44.0",
+		"ext-igbinary": "*",
+		"ext-encoding": "~1.0.0"
+	},
+	"require-dev": {
+		"phpstan/phpstan": "^2.1",
+		"phpstan/phpstan-strict-rules": "^2.0",
+		"phpstan/extension-installer": "^1.4"
+	}
+}

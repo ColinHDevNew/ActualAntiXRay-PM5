@@ -1,0 +1,6 @@
+# List behaviour:
+# - blacklist: AntiXRay will only be applied to worlds that ARE NOT in the list.
+# - whitelist: AntiXRay will only be applied to worlds that ARE in the list.
+mode: "blacklist"
+# List names of worlds here.
+worlds: []
